@@ -78,3 +78,21 @@ p {
 
 }
 
+.cabecalho{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 25px;
+    
+}
+
+.cabecalho img {
+    width: 70px;
+}
+
+
+.cabecalho a{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
