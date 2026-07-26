@@ -2,14 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
-
     height: 100vh;
-
-
 }
 
 button {
@@ -31,7 +28,7 @@ button {
 }
 
 .logo-mario {
-    width: 200px;
+    width: 350px;
 }
 
 .mario-e-luigi {
@@ -47,7 +44,7 @@ button {
 }
 
 .caixa-video {
-    position:fixed;
+    position: fixed;
     top: 0;
     z-index: -1;
 
@@ -55,5 +52,29 @@ button {
 
 video {
     width: 100vw
-    
 }
+
+.mascara-video {
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+}
+
+h2{
+    color: white;
+    margin-top: 15px;
+}
+p {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
