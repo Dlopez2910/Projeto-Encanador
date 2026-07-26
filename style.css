@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;   
+    height: 100vh;
+    padding:100px;
+    justify-content: space-around;
+}
+button {
+    background-color: #c51111;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    
+   
+}
+
+.logo-mario{
+    width: 200px;
+}
+.mario-e-luigi{
+    width: 300px;
+}
+
+.caixa-info-texto{
+    width: 50%;
+}
+.caixa-imagem{
+    width: 20%;
+}
