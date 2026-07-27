@@ -84,6 +84,7 @@ p {
     align-items: center;
     gap: 30px;
     padding: 25px;
+    
 
 }
 
@@ -96,6 +97,7 @@ p {
     color: white;
     font-size: 20px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .cabecalho a:hover {
