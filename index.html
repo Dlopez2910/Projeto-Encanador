@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-        <script src="script.js" defer></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <title>Super Mario Bros</title>
 
@@ -44,18 +44,19 @@
             <div class="mascara-video"></div>
         </div>
         <div class="caixa-whatsapp">
-            <a href="https://wa.me/5567991846525?text=Ola%2C%20preciso%20de%20um%20or%C3%A7amento" class="link-whatsapp">
+            <a href="https://wa.me/5567991846525?text=Ola%2C%20preciso%20de%20um%20or%C3%A7amento"
+                class="link-whatsapp">
                 <img src="./img/whatsapp.png">
             </a>
         </div>
     </div>
 
-    <form class="formulario">
-        <input placeholder="Seu Nome"/>
-        <input placeholder="Seu Telefone"/>
-        <input placeholder="Seu Email"/>
-        <textarea placeholder="Digite aqui seu problema aqui!..."></textarea>
-        <button>Pedir Orçamento</button>
+    <form class="formulario" action="https://formcarry.com/s/P0zPy_MYmdP" method="POST" enctype="multipart/form-data">
+        <input placeholder="Seu Nome" type="text" name="nome" />
+        <input placeholder="Seu Telefone" type="number" name="telefone" />
+        <input placeholder="Seu Email" type="email" name="email" />
+        <textarea placeholder="Digite aqui seu problema aqui!..." type="text" name="problema"></textarea>
+        <button type="submit">Pedir Orçamento</button>
     </form>
     <div class="mascara-formulario" onclick="esconderFormulario()"></div>
 </body>
