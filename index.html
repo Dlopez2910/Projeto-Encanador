@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-        <script src="script.js"></script>
+        <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <title>Super Mario Bros</title>
 
@@ -33,7 +33,7 @@
                 entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
                 Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!
             </p>
-            <button>ENTRE EM CONTATO</button>
+            <button onclick="mostrarFormulario()">ENTRE EM CONTATO</button>
         </div>
 
         <div class="caixa-imagem">
@@ -50,14 +50,14 @@
         </div>
     </div>
 
-    <form>
+    <form class="formulario">
         <input placeholder="Seu Nome"/>
         <input placeholder="Seu Telefone"/>
         <input placeholder="Seu Email"/>
         <textarea placeholder="Digite aqui seu problema aqui!..."></textarea>
         <button>Pedir Orçamento</button>
     </form>
-    <div class="mascara-formulario"></div>
+    <div class="mascara-formulario" onclick="esconderFormulario()"></div>
 </body>
 
 </html>
